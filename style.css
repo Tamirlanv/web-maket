@@ -107,10 +107,10 @@ main{
     color: var(--primary-color);
 }
 .news-content{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    gap: 30px;
     color: var(--primary-color);
 }
 .news1{
@@ -152,4 +152,22 @@ main{
 
 .bra h3{
     margin-top: 185px;
+}
+
+.braa{
+    margin-top: -1px;
+    width: 594px;
+    height: 270px;
+}
+
+.ooo h3{
+    margin-top: 120px;
+}
+
+.ddd{
+    margin-top: 27px;
+}
+
+.abc{
+    margin-top: -1px;
 }
